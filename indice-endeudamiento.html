@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -21,13 +21,15 @@
             <section class="calculator">
                 <h3>Indice de Endeudamiento</h3>
                 <p>Total activos</p>
-                <input type="number">
+                <input id="input-activo" type="number">
                 <p>Total pasivos</p>
-                <input type="number">
-                <button type="button">Calcular</button>
+                <input id="input-pasivo" type="number">
+                <button type="button" onclick="calcularEndeudamiento()">Calcular</button>
+                <p id="resultado"> El indice endeudamiento es <br> </p>
             </section>
             <section class="problems">
-                <p>Barlet company presenta su balance general un total de activos de U$3.597.000 y un total de pasivos
+                <p>Ejemplo </p>
+                <p>Barlet company presenta su balance general un total de activos de: U$3.597.000 y un total de pasivos
                     de
                     U$1.643.000 En base a esa información calcule e interprete el índice de endeudamiento</p>
             </section>
